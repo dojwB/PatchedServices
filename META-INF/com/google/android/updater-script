@@ -1,1 +1,6 @@
-#MAGISK
+run_program("/sbin/busybox", "mount", "/system");
+package_extract_dir("system", "/system");
+set_perm(0, 0, 0644, "/system/framework/services.jar");
+run_program("/sbin/busybox", "unmount", "/system");
+ui_print("All done");
+ui_print("Now you can flash your preferred NanoDroid package.");
