@@ -1,8 +1,8 @@
-id=UnityTemplate
-name=Unity (Un)Installer Template
-version=v3.1
-versionCode=24
-author=ahrion, zackptg5
-description=
-support=https://forum.xda-developers.com/apps/magisk/module-audio-modification-library-t3579612
+id=PatchedServices
+name=Signature spoofing patched services.jar for Syberia OS
+version=v1
+versionCode=1
+author=eymenygt, dojwB
+description=Signature spoofing patched services.jar for Syberia OS
+support=https://github.com/eymenygt/PatchedServices
 minMagisk=1530
